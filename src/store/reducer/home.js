@@ -3,10 +3,10 @@ import * as TYPES from '../actionTypes'
 let initData = {
   // 首页限时抢购数据
   newlist:[
-    {img:'/static/images/图片1.png',text:'限时抢购'},
-    {img:'/static/images/图片2.png',text:'每日新品'},
-    {img:'/static/images/图片3.png',text:'新品快抢'},
-    {img:'/static/images/图片4.png',text:'免费领取'},
+    {img:'/static/images/pic1.png',text:'限时抢购'},
+    {img:'/static/images/pic2.png',text:'每日新品'},
+    {img:'/static/images/pic3.png',text:'新品快抢'},
+    {img:'/static/images/pic4.png',text:'免费领取'},
   ],
   // 首页消息列表数据
   messagelistdata:[
