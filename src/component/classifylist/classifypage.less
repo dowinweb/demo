@@ -1,0 +1,115 @@
+.searchResult {
+  // height: 10rem;
+  width: 100%;
+  background:#ffffff;
+  .screening {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    .mainContent {
+      position: relative;
+      height: 100%;
+      width: 6rem;
+      position: fixed;
+      left: 1.5rem;
+      background: #fff;
+      text-align: left;
+      z-index: 1001;
+      padding: 0 .2rem;
+      color: #333333;
+      .priceRange {
+        margin-top: .3rem;
+        input {
+          width: 2.5rem;
+          height: 0.6rem;
+          border: none;
+          background: #F7F7F7;
+          border-radius: .07rem;
+          text-align: center;
+          font-size: .24rem;
+        }
+        .title {
+          margin-bottom: 0.3rem;
+          text-align: left;
+        }
+        .item {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .itemText {
+            font-size: 0.26rem;
+            background: #F5F5F5;
+            width: 1.8rem;
+            height: 0.6rem;
+            text-align: center;
+            line-height: 0.6rem;
+            margin-bottom: 0.346667rem;
+            border-radius: .06rem;
+          }
+        }
+      }
+      .bottomBtn {
+        position: absolute;
+        bottom: 0;
+        right: .001rem;
+        display: flex;
+        padding-left: 0;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        font-size: 0.35rem;
+        text-align: center;
+        border-top: 0.026667rem solid #d5d5d5;
+        div {
+          flex: 50%;
+        }
+        div:last-child {
+          background: #FE2C60;
+          color: #fff;
+        }
+      }
+    }
+  }
+  .searchNav {
+    height: 0.8rem;
+    padding-top: .2rem;
+    border-bottom: .01rem solid #f3f3f3;
+    ul {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative; 
+      li {
+        text-align: center;
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        a {
+          color: #181818;
+        }
+        img {
+          width: .4rem;
+          height: 0.35rem;
+        }
+        &.active {          
+          a {color: #FE2C60;}
+          position: relative;  
+        }
+      }
+    }
+  }
+  .BigCustomersBOX {
+    background:#FFFFFF;
+    padding: .1rem;
+    .BigComponent {
+      margin-left: .1rem;
+      display: inline-block;
+    }
+  }
+}

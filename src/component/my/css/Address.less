@@ -1,0 +1,58 @@
+.AddressContentBox {
+  color: #333;
+  font-size: 0.3rem;  
+  .AddressContentImg {
+    width: 100%;
+    height: 0.1rem;
+    background: url('/static/images/AddressColor.png' );
+    background-size: 100% 100%;
+  }
+  .AddressContentItem {
+    margin-bottom: .3rem;
+    padding: .4rem;
+    background: #fff;
+    height: 2.4rem;
+    .PersonInfo {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      span {
+        color: #333;
+      }
+      span:last-child {
+        width: 0.5rem;
+        height: 0.5rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    .AddressBottom {
+      padding-top: .2rem;
+      display: flex;
+      .ContentBoxLeft {
+        word-break: keep-all;
+        border: 0.026667rem solid #fe2c60;
+        height: 0.5rem;
+        color: #fe2c60;
+        width: 0.853333rem;
+        font-size: 0.25rem;
+        padding: 0.06rem;
+        margin-right: 0.1rem;
+      }
+      .ContentBoxRight {
+        font-size: 0.3rem;
+        color: #999;
+      }
+    }
+  }
+  .AddressBtn {
+    width: 6rem;
+    height: 0.8rem;
+    line-height: .8rem;
+    color: #fff;
+    margin: .8rem auto;
+    border-radius: 0.066667rem;
+  }
+}

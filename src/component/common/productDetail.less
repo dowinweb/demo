@@ -1,0 +1,351 @@
+.ProductDetailBox {
+  width: 100%;
+  color: #333333;
+  .ProductDetailSwipe {
+    .slick-slide {
+      height: 5rem;
+      background: #364d79;
+      overflow: hidden;
+      div {
+        height: 5rem;
+      }
+      img {
+        border: none;
+        width: 100%;
+        height: 100%;
+      }
+    }   
+  }
+  .ProductDetailInfo {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    padding: .4rem .2rem 0;
+    .ProductDetailLeft {
+      .title {
+        font-size: 0.3rem;
+        color: #333;
+        text-align: left;
+      }
+      .main_price {
+        padding-top: .2rem;
+        display: flex;
+        justify-content: flex-start;
+        .current_price {
+          font-size: 0.5rem;
+          color: #FE2C60;
+          margin-right: 0.213333rem;
+          font-weight: bold;
+        }
+        .ori_price {
+          font-size: 0.27rem;
+          color: #888;
+          text-decoration: line-through;
+        }
+        .discount {
+          width: 0.64rem;
+          height: 0.4rem;
+          font-size: 0.266667rem;
+          color: #FE2C60;
+          padding: 0.026667rem 0.07rem;
+          background: rgba(255, 171, 192, 0.3);
+          border-radius: 0.04rem;
+        }        
+      }
+    }
+    .ProductDetailRight {
+      .demo{
+        border-radius: 0.04rem;
+        border: 0.026667rem solid #f7f7f7;
+        text-align: center;
+        width: 83px;
+        height: 1.8rem;
+        background:rgba(255,255,255,1);
+        .good_rate {
+          font-size: 0.4rem;
+          color: #FE2C60;
+          padding: 0.1rem 0 0.02rem 0;
+        }
+        .total_comment {
+          font-size: 0.27rem;
+          color: #999;
+        }  
+      } 
+    }
+  }
+  .main_line {
+    padding: .4rem;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    color: #333;
+    font-size: .23rem;
+    span {
+      color: red;
+    }
+  }
+  .lalalalla {
+    display: flex;
+    justify-content: space-between;
+    background: #FFFFFF;
+    padding: 0 .2rem .3rem .3rem;
+    border-bottom: .02rem solid #ccc;
+    color: #888;
+    font-size: .2rem;
+  }
+  .hahahahha {
+    background: #FFFFFF;
+    font-size: .24rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: .28rem 0 .23rem .32rem;
+    div:first-child {
+      color: #FE2C60;;
+      padding: .02rem .15rem;
+      margin-right: .2rem;
+      background:rgba(255,171,192,1);
+      opacity:0.5;
+      border-radius:3px;
+    }
+  }
+  .twoItem {
+    font-size:.28rem;
+    font-weight:500;
+    color:rgba(102,102,102,1);
+    margin: .2rem 0;
+    .item {
+      border-bottom: .01rem solid #F3F3F3;
+      display: flex;
+      justify-content: space-between;
+      padding: .33rem;
+      background: #FFFFFF;
+    }
+  }
+  .main_comment {    
+    font-size: 0.373333rem;
+    padding: 0.4rem 0 0.3rem 0.4rem;
+    text-align: left;
+    background: #FFFFFF;
+    .comment_info {
+      display: flex;
+      font-size: .3rem;
+      justify-content: space-between;
+      padding-bottom: 0.213333rem;
+      border-bottom: 0.026667rem solid #F0F0F0;
+      .Right {
+        padding-right: .2rem;
+        font-size: .25rem;
+        span {
+          color: #FE2C60;
+        }
+      }
+    }
+    .comment_detail {
+      padding: .2rem .51rem 0 0;
+      .comment_user {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        font-size: .27rem;
+        .comment_userImg {
+          img {
+            width: 1rem;
+            height: 1rem;
+            border-radius: 50%;
+            margin-right: .16rem;
+          }
+        }
+      }
+      .comment_userContext {
+        .contentTime {
+          color: #999;
+          font-size:.24rem;
+        }
+        .contenttext {
+          font-size: .3rem;
+          padding: .2rem 0 ;
+        }
+        .comment_img {
+          img {
+            width: 1.8rem;
+            height: 1.8rem;
+            border-radius: 0.04rem;
+            margin-right: 0.106667rem;
+          }
+        }
+      }
+    }  
+  }
+  .screening {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,.7);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+    .mainContent {
+      position: relative;
+      width: 100%;
+      bottom: 1.1rem;
+      position: fixed;
+      background: #fff;
+      text-align: left;
+      z-index: 1001;
+      padding: 0 .2rem;
+      color: #333333;
+      .priceRange {
+        margin-top: .3rem;
+        .title {
+          margin-bottom: 0.3rem;
+          text-align: left;
+        }
+        .item {
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          .itemText {
+            font-size: 0.28rem;
+            width: 2rem;
+            text-align: center;
+            line-height: 0.6rem;
+            margin-bottom: 0.346667rem;
+            border-radius: .03rem;
+            border:.01rem solid rgba(116,116,116,1);
+            padding: .05rem .33rem;
+          }
+        }
+      }
+      .ModeSelect {
+        display: flex;
+        justify-content: flex-start;
+        padding: .43rem 0;
+        div {
+          padding-right: .88rem;
+        }
+      }
+      .StepPlus {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin: .3rem 0 .3rem 0;
+        width: 3.19rem;
+        height: .71rem;
+        border: 0.02rem solid #eee;
+        background: #fff;
+        span {
+          padding: .05rem;
+          display: inline-block;
+          font-size: .4rem;
+          height:100%;
+          width: .94rem;
+          color: #333333;
+          text-align: center;                   
+        }
+        span:first-child {
+          border-right: 0.02rem solid #eee;
+        }
+        span:last-child {
+          border-left: 0.02rem solid #eee;
+        }
+        input {
+          width: 1.31rem;
+          height: 100%;
+          border: none;
+          box-sizing: content-box;
+          color: #666;
+          font-size: 0.25rem;
+          vertical-align: middle;
+          text-align: center;
+        }
+      }
+      .bottomBtn {
+        position: absolute;
+        right: .001rem;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 1.2rem;
+        line-height: 1.2rem;
+        font-size: 0.35rem;
+        text-align: center;
+        border-top: 0.026667rem solid #d5d5d5;
+        div {
+          flex: 50%;
+        }
+        div:last-child {
+          background: #FE2C60;
+          color: #fff;
+        }
+      }
+    }
+    .textContent {
+      display: flex;
+      padding: .53rem 0 .49rem .22rem;
+      .leftBox {
+        width: 2rem;
+        height: 2rem;
+        img {
+          width: 100%;
+          height: 100%;
+        }    
+      }
+      .right {
+        padding-left: .27rem;
+        .one {
+          color: #333333;
+          span {
+            color: #FE2C60;
+          }
+        }
+        .two {
+          color: #999999;
+          padding: 0.2rem 0;
+          font-size: .25rem;
+        }
+        .three {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          color: #FE2C60;
+          font-size: 0.35rem;
+          .shouhou {
+            border: .01rem solid #FE2C60;
+            padding: .07rem .3rem;
+            font-size: .2rem;
+            margin-right: .3rem;
+          }
+          .StepPlus {
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            span {
+              padding: .05rem;
+              display: inline-block;
+              font-size: .4rem;
+              border: 0.02rem solid #eee;
+              height:.4rem;
+              line-height: .2rem;
+              color: #333333;
+            }
+            input {
+              width: 0.7rem;
+              height: 0.3rem;
+              padding: 0.026667rem;
+              border: 0.02rem solid #eee;
+              border-width: 0.026667rem 0;
+              box-sizing: content-box;
+              color: #666;
+              font-size: 0.25rem;
+              vertical-align: middle;
+              text-align: center;
+            }
+          }
+        }
+      }
+
+    }
+  }
+}

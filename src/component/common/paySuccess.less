@@ -1,0 +1,87 @@
+.PaySuccessMoney {
+  .headerBackground {
+    position: relative;
+    height: 3.4rem;
+    background: #FD537D;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+    .payText {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      div{
+        color: #FFFFFF;
+        img {
+          width: .82rem;
+          height: .82rem;
+        }
+      }
+      div:nth-child(2) {
+        padding: .1rem 0;
+      }
+      div:last-child {
+        font-size: .4rem;
+        span {
+          font-size: .6rem;
+        }
+      }
+    }
+  }
+  .paymain {
+    height: 1.47rem;
+    background: #FFFFFF;
+    border-radius: 0 0 .4rem .4rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: .05rem #DEDEDE dashed;
+    div {
+      border:.02rem solid rgba(254,44,96,1);
+      border-radius:.05rem;
+      font-size: .32rem;
+      padding: .1rem .3rem;
+      color: #FE2C60;
+    }
+    div:last-child {
+      color: #FFFFFF;
+      background: #FE2C60;
+    }
+  }
+  .footertext {
+    height: 3.7rem;
+    background: #FFFFFF;
+    border-radius: .4rem .4rem 0 0 ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .titleBox {
+      color: #181818;
+      font-size:.32rem;
+      padding: .54rem 0 .26rem 0;
+    }
+    div {
+      font-size:.24rem;
+      font-family:'PingFang-SC-Medium';
+      font-weight:500;
+      color:rgba(153,153,153,1);
+      // line-height:30px;
+    }
+    .BtnSub {
+      width: 3.6rem;
+      height: .78rem;
+      line-height: .78rem;
+      color: #FFFFFF;
+      font-size: .32rem;
+      margin-top: .43rem;
+      background:rgba(5,131,255,1);
+      border-radius:.05rem;
+      text-align: center;
+    }
+  }
+}
